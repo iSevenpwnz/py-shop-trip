@@ -5,7 +5,6 @@ from app.shop import Shop
 
 
 class Shopping:
-
     shopping_registry = []
 
     def __init__(self, customer: Customer,

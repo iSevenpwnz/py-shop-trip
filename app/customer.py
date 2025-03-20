@@ -4,7 +4,6 @@ from decimal import Decimal
 
 @dataclass
 class Customer:
-
     name: str
     product_cart: dict
     location: list[int]

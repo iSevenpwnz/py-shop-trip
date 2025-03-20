@@ -67,7 +67,6 @@ def create_path_to_json(current_path: str) -> str:
 
 
 def cheapest_shopping(customer: Customer) -> Shopping | None:
-
     one_customer_shoppings = []
     for one_shopping in Shopping.shopping_registry:
         if one_shopping.customer is customer:
