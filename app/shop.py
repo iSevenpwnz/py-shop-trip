@@ -1,11 +1,9 @@
-class Shop:
-    def __init__(
-            self,
-            name: str,
-            location: list[int],
-            products: dict,
+from dataclasses import dataclass
 
-    ) -> None:
-        self.name = name
-        self.location = location
-        self.products = products
+
+@dataclass
+class Shop:
+
+    name: str
+    location: list
+    products: dict
